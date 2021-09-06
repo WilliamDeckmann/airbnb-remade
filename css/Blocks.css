@@ -7,3 +7,9 @@
 @import url("./Blocks/Registration.css");
 @import url("./Blocks/Language-selector.css");
 @import url("./Blocks/User-menu.css");
+
+/* Main - Cards & Map */
+@import url("./Blocks/Main.css");
+@import url("./Blocks/Cards-container.css");
+@import url("./Blocks/Cards.css");
+@import url("./Blocks/Map.css");

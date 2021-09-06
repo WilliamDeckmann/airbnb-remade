@@ -1,0 +1,39 @@
+.Cards-container {
+    padding: 0 24px 0 24px;
+}
+
+.Cards-container__result-count {
+    padding: 50px 0 8px 0;
+}
+
+.Cards-container__title {
+    font-size: 32px;
+}
+
+.Cards-container__filters-container {
+    padding: 20px 0 20px 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style-type: none;
+}
+
+.Cards-container__filter {
+    padding: 8px 16px 8px 16px;
+    font-size: 14px;
+    border: 1px solid var(--weak-theme);
+    border-radius: calc(16px + 14px); /* padding + font-size */
+}
+
+.Cards-container__filter_active {
+
+    border: 2px solid var(--general-theme);
+    background-color: var(--active-theme);
+}
+
+.Cards-container__line {
+    height: 1px;
+    background-color: var(--weak-theme);
+    border: none;
+}

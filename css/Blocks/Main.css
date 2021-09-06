@@ -1,0 +1,5 @@
+/* --------------------{ Main styles }-------------------- */
+.Main {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+}
