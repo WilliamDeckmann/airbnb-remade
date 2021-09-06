@@ -1,4 +1,9 @@
 /* --------------------{ Import all block styles }-------------------- */
 
-/* Header */
+/* Header - Logo, Search-bar, Registration, Language-selector, User-menu */
 @import url("./Blocks/Header.css");
+@import url("./Blocks/Logo.css");
+@import url("./Blocks/Search-bar.css");
+@import url("./Blocks/Registration.css");
+@import url("./Blocks/Language-selector.css");
+@import url("./Blocks/User-menu.css");
