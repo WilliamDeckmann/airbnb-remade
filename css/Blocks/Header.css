@@ -1,0 +1,12 @@
+.Header {
+    height: 80px;
+    padding: 0 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header__info {
+    display: flex;
+    justify-content: end;
+}
