@@ -27,13 +27,6 @@
 }
 
 .Cards-container__filter_active {
-
     border: 2px solid var(--general-theme);
     background-color: var(--active-theme);
-}
-
-.Cards-container__line {
-    height: 1px;
-    background-color: var(--weak-theme);
-    border: none;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Airbnb - remade</title>
+    <title>Airbnb - remade: index</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -38,15 +38,20 @@
         <!-- Header -->
         <header class="Header medium-shadow">
 
-            <!-- Logo -->
-            <figure class="Logo">
+            <!-- Logo - link -->
+            <a class="Logo-link" href="./index.html">
+            
+                <!-- Logo -->
+                <figure class="Logo">
+    
+                    <!-- Logo - img & h1 -->
+                    <i class="fab fa-airbnb Logo__icon"></i>
+                    <h1 class="Logo__title">
+                        airbnb
+                    </h1>
+                </figure>
+            </a>
 
-                <!-- Logo - img & h1 -->
-                <i class="fab fa-airbnb Logo__icon"></i>
-                <h1 class="Logo__title">
-                    airbnb
-                </h1>
-            </figure>
 
 
 
@@ -54,7 +59,7 @@
             <div class="Search-bar Header__search-bar small-shadow">
 
                 <!-- Search-bar -->
-                <input class="Search-bar__input" type="text" placeholder="Start din søgning">
+                <input class="Search-bar__input font-bold" type="text" placeholder="Start din søgning">
                 <i class="fas fa-search Search-bar__icon"></i>
             </div>
 
@@ -64,14 +69,14 @@
             <div class="Header__info">
 
                 <!-- Bliv vært -->
-                <a class="Registration" href="#">
+                <a class="Registration font-bold" href="#">
                     Bliv vært
                 </a>
 
                 <!-- Language selector -->
-                <a class="Language-selector" href="#">
+                <button class="Language-selector" href="#">
                     <i class="fas fa-globe Language-selector__icon"></i>
-                </a>
+                </button>
 
                 <!-- User tab -->
                 <div class="User-menu">
@@ -112,9 +117,61 @@
                     </ul>
 
                     <!-- Cards-container - line -->
-                    <hr class="Cards-container__line">
-                </article>
-                </article>
+                    <hr class="Cards-container__line line">
+
+
+
+                    <!-- Cards-container - container -->
+                    <div class="Cards-container__container">
+
+                        <!-- Card-link -->
+                        <a class="Card-link" href="./about.html">
+
+                            <!-- Card -->
+                            <article class="Card">
+
+                                <!-- Card - img-container -->
+                                <figure class="Card__img-container">
+
+                                    <!-- Card - img & tag -->
+                                    <img class="Card__img" src="./img/residence_01/8b08599d-45dc-4cfc-95a1-7bbe5e878164.jpg" alt="Billede af udlejing">
+                                    <p class="Card__tag uppercase font-bold">Superhost</p>
+                                </figure>
+
+                                <!-- Card__info -->
+                                <section class="Card__info">
+
+                                    <!-- Card - header -->
+                                    <header class="Card__header">
+
+                                        <!-- Card - header-left -->
+                                        <section class="Card__header-left">
+                                            
+                                            <!-- Card - description, title, line, details -->
+                                            <p class="Card__description color-weak">Hel(t) hytte i Orø</p>
+                                            <h2 class="Card__title font-thin">Summerhouse at island - fjordview</h2>
+                                            <hr class="Card__line line">
+                                            <p class="Card__details color-weak">4 gæster · 1 soveværelse · 1 seng · 1 badeværelse</p>
+                                        </section>
+
+                                        <!-- Card - header-right -->
+                                        <section class="Card__header-right">
+                                            <i class="far fa-heart Card__heart"></i>
+                                        </section>
+                                    </header>
+
+                                    <!-- Card - footer -->
+                                    <footer class="Card__footer">
+
+                                        <!-- Card - star, footer, mention -->
+                                        <i class="fas fa-star Card__star"></i>
+                                        <p class="Card__rating font-bold">4,97</p>
+                                        <p class="Card__mention color-weak">(178 omtaler)</p>
+                                    </footer>
+                                </section>
+                            </article>
+                        </a>
+                    </div>
             </section>
 
 
@@ -123,7 +180,7 @@
             <aside class="Map">
 
                 <!--  -->
-                <img class="Map__img" src="./img/danmarkskort.png" alt="Danmarkskort">
+                <img class="Map__img" src="./img/map/map-of-denmark.png" alt="Danmarkskort">
             </aside>
         </main>
     </div>

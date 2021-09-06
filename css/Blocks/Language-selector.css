@@ -1,5 +1,6 @@
 /* --------------------{ Language-selector }-------------------- */
 .Language-selector {
     padding: 13px;
-    color: var(--general-theme);
+    border: none;
+    background-color: var(--background-theme);
 }
