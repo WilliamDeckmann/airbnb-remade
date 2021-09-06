@@ -2,6 +2,7 @@
 /* --------------------{ Root }-------------------- */
 :root {
     --logo-theme: #FF385C;
-    --general-text: #222222;
-    --lesser-text: #717171;
+    --general-theme: #222222;
+    --weak-theme: #717171;
+    --background-theme: #ffffff;
 }
