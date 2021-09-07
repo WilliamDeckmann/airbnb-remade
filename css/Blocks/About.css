@@ -1,0 +1,5 @@
+.Main__about {
+    max-width: 1128px;
+    grid-column: 1 / 3;
+    margin: auto;
+}

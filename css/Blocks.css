@@ -13,3 +13,7 @@
 @import url("./Blocks/Cards-container.css");
 @import url("./Blocks/Card.css");
 @import url("./Blocks/Map.css");
+
+/* Main - About */
+@import url("./Blocks/About.css");
+@import url("./Blocks/Gallery.css");
