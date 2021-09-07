@@ -15,6 +15,9 @@
     border: none;
     outline: none;
     font-size: 14px;
+}
+
+.Search-bar__input::placeholder {
     color: var(--general-theme);
 }
 
