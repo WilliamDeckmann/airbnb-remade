@@ -1,4 +1,4 @@
-/* --------------------{ Residence-info }-------------------- */
+/* --------------------{ Residence-info style + other/ }-------------------- */
 .Residence-info__footer {
     width: 1128px;
     margin-top: 8px;
@@ -41,48 +41,19 @@
     font-size: 18px;
 }
 
-
 .Residence-line {
     width: 35px;
     margin-left:0; 
     text-align:left;
 }
 
-.Heart {
-    font-size: 16px;
-}
-
-.Card__heart {
-    font-size: 18px;
-}
-
 .Details {
     margin-left: 4px;
-}
-
-.House {
-    font-size: 16;
-    color: var(--logo-theme);
-}
-
-.Star {
-    font-size: 16px;
-    margin-right: 4px;
-    color: var(--logo-theme);
 }
 
 .Residence-info__mention {
     margin-left: 4px;
     text-decoration: underline;
-}
-
-.Location {
-    margin-left: 4px;
-}
-
-.Marker {
-    font-size: 16px;
-    color: var(--logo-theme);
 }
 
 .Share {
@@ -106,28 +77,4 @@
 
 .Host-introduction__show-more {
     margin-top: 10px;
-}
-
-.Arrow {
-    font-size: 12px;
-}
-
-.Verified {
-    font-size: 16px;
-    color: var(--logo-theme);
-}
-
-.Award {
-    font-size: 16px;
-    color: var(--logo-theme);
-}
-
-.Host-introduction__award {
-    margin: 0 4px 4px 0;
-    font-size: 20px;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    justify-self: flex-end;
-    align-self: flex-end;
-    color: var(--background-theme);
 }

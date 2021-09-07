@@ -1,0 +1,52 @@
+/* --------------------{ Icons style }-------------------- */
+.Heart {
+    font-size: 16px;
+}
+
+.Card__heart {
+    font-size: 18px;
+}
+
+.Star {
+    font-size: 16px;
+    margin-right: 4px;
+    color: var(--logo-theme);
+}
+
+.House {
+    font-size: 16;
+    color: var(--logo-theme);
+}
+
+.Location {
+    margin-left: 4px;
+}
+
+.Marker {
+    font-size: 16px;
+    color: var(--logo-theme);
+}
+
+.Arrow {
+    font-size: 12px;
+}
+
+.Verified {
+    font-size: 16px;
+    color: var(--logo-theme);
+}
+
+.Award {
+    font-size: 16px;
+    color: var(--logo-theme);
+}
+
+.Host-introduction__award {
+    margin: 0 4px 4px 0;
+    font-size: 20px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: flex-end;
+    align-self: flex-end;
+    color: var(--background-theme);
+}

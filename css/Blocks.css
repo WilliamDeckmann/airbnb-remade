@@ -1,5 +1,8 @@
 /* --------------------{ Import all block styles }-------------------- */
 
+/* Icons */
+@import url("./Blocks/Icons.css");
+
 /* Header */
 @import url("./Blocks/Header.css");
 
@@ -18,11 +21,11 @@
 /* User-menu */
 @import url("./Blocks/User-menu.css");
 
-/* Residence-info */
-@import url("./Blocks/Residence-info.css");
-
 /* Main */
 @import url("./Blocks/Main.css");
+
+/* Residence-info */
+@import url("./Blocks/Residence-info.css");
 
 /* Cards */
 @import url("./Blocks/Cards-container.css");
