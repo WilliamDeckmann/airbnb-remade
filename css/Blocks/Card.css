@@ -6,8 +6,8 @@
 }
 
 .Card__img-container {
-    position: relative;
     height: 200px;
+    position: relative;
 }
 
 .Card__img {
