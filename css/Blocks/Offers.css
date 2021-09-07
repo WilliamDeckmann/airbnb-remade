@@ -1,6 +1,7 @@
 /* --------------------{ Offers styles }-------------------- */
-.Sections__offers {
-    margin-top: 40px;
+.Offers-geometry {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
 }
 
 .Offers__title {
@@ -25,7 +26,7 @@
 
 .Offers__show-all {
     padding: 13px 23px 13px 23px;
-    margin: 40px 0 40px 0;
+    margin-top: 40px;
     font-size: 16px;
     border: 1px solid var(--weak-theme);
     border-radius: 6px;

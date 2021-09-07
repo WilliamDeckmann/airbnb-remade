@@ -1,5 +1,11 @@
 /* --------------------{ Main styles }-------------------- */
 .Main {
+    
+}
+
+.Main_theme_home-page {
+    padding-top: 80px;
     display: grid;
-    grid-template-columns: 7fr 5fr;
+    grid-template-columns: 840px 1fr;
+    height: 3000px;
 }

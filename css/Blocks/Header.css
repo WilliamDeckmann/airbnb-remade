@@ -1,14 +1,21 @@
 
 /* --------------------{ Header }-------------------- */
 .Header {
+    width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 100;
+    background-color: var(--background-theme);
+}
+
+.Header_theme_home-page {
+    position: fixed;
 }
 
 .Header__container {
     width: 100%;
-    padding: 0 24px 0 24px;
     height: 80px;
+    padding: 0 24px 0 24px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;

@@ -1,0 +1,65 @@
+.Host-introduction {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Host-introduction__section-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Host-introduction__header {
+    margin-bottom: 12px;
+    gap: 16px;
+    display: flex;
+}
+
+.Host-introduction__picture {
+    width: 88px;
+    height: 112px;
+    display: grid;
+    grid-template: 1fr / 1fr;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.Host-introduction__img {
+    width: 88px;
+    height: 112px;
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    object-fit: cover;
+}
+
+.Host-introduction__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Host-introduction__title {
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
+.Host-introduction__ate {
+    font-size: 16px;
+}
+
+.Host-introduction__achievement-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-content: center;
+    gap: 20px;
+}
+
+.Host-introduction__achievement-item {
+    display: flex;
+}
+
+.Host-introduction__achievement-icon {
+    margin-right: 8px;
+}

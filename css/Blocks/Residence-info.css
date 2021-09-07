@@ -69,7 +69,7 @@
 }
 
 .Marker {
-    font-size: 16;
+    font-size: 16px;
     color: var(--logo-theme);
 }
 
@@ -79,4 +79,43 @@
 
 .Save {
     text-decoration: underline;
+}
+
+.Show-more {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.Show-more__link {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.Host-introduction__show-more {
+    margin-top: 10px;
+}
+
+.Arrow {
+    font-size: 12px;
+}
+
+.Verified {
+    font-size: 16px;
+    color: var(--logo-theme);
+}
+
+.Award {
+    font-size: 16px;
+    color: var(--logo-theme);
+}
+
+.Host-introduction__award {
+    margin: 0 4px 4px 0;
+    font-size: 20px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: flex-end;
+    align-self: flex-end;
+    color: var(--background-theme);
 }
