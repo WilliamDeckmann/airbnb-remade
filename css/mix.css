@@ -33,6 +33,7 @@
 
 .line {
     height: 1px;
+    width: 100%;
     border: none;
     background-color: var(--line-theme);
 }
