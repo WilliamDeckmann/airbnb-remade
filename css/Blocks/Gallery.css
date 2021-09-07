@@ -2,4 +2,19 @@
 .Gallery {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(2, 250px);
+    gap: 8px;
+    border-radius: 12px;
+    overflow: hidden;
+    
+}
+.Gallery__img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Gallery__img_type_hero {
+    height: 100%;
+    grid-row: 1 / 3;
 }
