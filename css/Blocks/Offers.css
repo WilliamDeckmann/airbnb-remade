@@ -3,6 +3,31 @@
     margin-top: 40px;
 }
 
+.Offers__title {
+    margin-bottom: 24px;
+    font-size: 22px;
+}
+
+.Offers__list {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 16px;
+    list-style-type: none;
+}
+
+.Offers__description {
+    display: inline-block;
+}
+
 .Offers__show-all {
-    margin-bottom: 40px;
+    padding: 13px 23px 13px 23px;
+    margin: 40px 0 40px 0;
+    font-size: 16px;
+    border: 1px solid var(--weak-theme);
+    border-radius: 6px;
+    background-color: var(--background-theme);
 }

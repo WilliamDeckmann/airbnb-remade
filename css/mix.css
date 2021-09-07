@@ -27,6 +27,10 @@
     text-decoration: line-through;
 }
 
+.marked {
+    background-color: var(--marked-theme);
+}
+
 .line {
     height: 1px;
     border: none;
