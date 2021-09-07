@@ -1,4 +1,13 @@
 /* --------------------{ Registration }-------------------- */
 .Registration {
     padding: 13px;
+    border-radius: 22px;
+    transition: background-color .1s;
+    transition-timing-function: ease-in-out;
+}
+
+.Registration:hover {
+    padding: 13px;
+    background-color: var(--marked-theme);
+    cursor: pointer;
 }

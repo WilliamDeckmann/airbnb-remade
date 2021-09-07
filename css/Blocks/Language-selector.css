@@ -3,4 +3,12 @@
     padding: 13px;
     border: none;
     background-color: var(--background-theme);
+    border-radius: 22px;
+    transition: background-color .1s;
+    transition-timing-function: ease-in-out;
+}
+
+.Language-selector:hover {
+    background-color: var(--marked-theme);
+    cursor: pointer;
 }
