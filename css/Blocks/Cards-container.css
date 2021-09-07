@@ -27,6 +27,11 @@
     border-radius: calc(16px + 14px); /* padding + font-size */
 }
 
+.Cards-container__filter:hover {
+    cursor: pointer;
+    border-color: var(--general-theme);
+}
+
 .Cards-container__filter_active {
     border: 2px solid var(--general-theme);
     background-color: var(--active-theme);

@@ -32,3 +32,8 @@
     border-radius: 6px;
     background-color: var(--background-theme);
 }
+
+.Offers__show-all:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

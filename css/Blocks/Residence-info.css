@@ -60,8 +60,17 @@
     text-decoration: underline;
 }
 
+.Share:hover {
+    cursor: pointer;
+}
+
 .Save {
     text-decoration: underline;
+}
+
+
+.Save:hover {
+    cursor: pointer;
 }
 
 .Show-more {
