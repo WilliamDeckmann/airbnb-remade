@@ -1,19 +1,44 @@
 /* --------------------{ Import all block styles }-------------------- */
 
-/* Header - Logo, Search-bar, Registration, Language-selector, User-menu */
+/* Header */
 @import url("./Blocks/Header.css");
+
+/* Logo */
 @import url("./Blocks/Logo.css");
+
+/* Search-bar */
 @import url("./Blocks/Search-bar.css");
+
+/* Registration */
 @import url("./Blocks/Registration.css");
+
+/* Language-selector */
 @import url("./Blocks/Language-selector.css");
+
+/* User-menu */
 @import url("./Blocks/User-menu.css");
 
-/* Main - Cards & Map */
+/* Residence-info */
+@import url("./Blocks/Residence-info.css");
+
+/* Main */
 @import url("./Blocks/Main.css");
+
+/* Cards */
 @import url("./Blocks/Cards-container.css");
 @import url("./Blocks/Card.css");
+
+/* Map */
 @import url("./Blocks/Map.css");
 
-/* Main - About */
+/* About */
 @import url("./Blocks/About.css");
+
+/* Gallery */
 @import url("./Blocks/Gallery.css");
+
+/* Sections */
+@import url("./Blocks/Sections.css");
+
+/* Offers */
+@import url("./Blocks/Offers.css");

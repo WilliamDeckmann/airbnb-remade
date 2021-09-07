@@ -34,29 +34,10 @@
 
 .Card__header {
     display: flex;
-}
-
-.Card__title {
-    font-size: 18px;
-}
-
-.Card__line {
-    width: 35px;
-    margin-left:0; 
-    text-align:left;
-}
-
-.Card__heart {
-    font-size: 18px;
+    justify-content: space-between;
 }
 
 .Card__footer {
     display: flex;
     align-items: center;
-}
-
-.Card__star {
-    font-size: 14px;
-    margin-right: 4px;
-    color: var(--logo-theme);
 }

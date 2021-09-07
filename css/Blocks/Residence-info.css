@@ -1,0 +1,82 @@
+/* --------------------{ Residence-info }-------------------- */
+.Residence-info__footer {
+    width: 1128px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Residence-info__footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.Residence-info__footer-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.Residence-header {
+    display: flex;
+}
+
+.Residence-title {
+    font-size: 32px;
+}
+
+.Card__residence-title {
+    font-size: 18px;
+}
+
+
+.Residence-line {
+    width: 35px;
+    margin-left:0; 
+    text-align:left;
+}
+
+.Heart {
+    font-size: 16px;
+}
+
+.Card__heart {
+    font-size: 18px;
+}
+
+.Details {
+    margin-left: 4px;
+}
+
+.House {
+    font-size: 16;
+    color: var(--logo-theme);
+}
+
+.Star {
+    font-size: 16px;
+    margin-right: 4px;
+    color: var(--logo-theme);
+}
+
+.Residence-info__mention {
+    margin-left: 4px;
+    text-decoration: underline;
+}
+
+.Location {
+    margin-left: 4px;
+}
+
+.Marker {
+    font-size: 16;
+    color: var(--logo-theme);
+}
+
+.Share {
+    text-decoration: underline;
+}
+
+.Save {
+    text-decoration: underline;
+}

@@ -15,6 +15,7 @@
 }
 
 .Header__container_theme_about {
+    padding: 0;
     max-width: 1128px;
 }
 
