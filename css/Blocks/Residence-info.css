@@ -6,12 +6,24 @@
     justify-content: space-between;
 }
 
-.Residence-info__footer-left {
+.Residence-info__detail-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.Residence-info__detail-item {
     display: flex;
     align-items: center;
 }
 
-.Residence-info__footer-right {
+.Residence-info__detail-dot {
+    margin: 0 8px 0 8px;
+}
+
+.Residence-info__social-media {
     display: flex;
     align-items: center;
     gap: 16px;
