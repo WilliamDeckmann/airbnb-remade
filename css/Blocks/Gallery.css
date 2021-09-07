@@ -10,12 +10,35 @@
     gap: 8px;
     border-radius: 12px;
     overflow: hidden;
-    
+    position: relative;
 }
+
 .Gallery__img {
     height: 250px;
     width: 100%;
     object-fit: cover;
+}
+
+.Gallery__img:hover {
+    cursor: pointer;
+}
+
+.Gallery__tag {
+    padding: 7px 15px 7px 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--general-theme);
+    border-radius: 8px;
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    background-color: var(--background-theme);
+}
+
+.Gallery__tag:hover {
+    cursor: pointer;
 }
 
 .Gallery__img_type_hero {
