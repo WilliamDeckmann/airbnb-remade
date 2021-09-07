@@ -1,11 +1,21 @@
 
 /* --------------------{ Header }-------------------- */
 .Header {
-    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.Header__container {
+    width: 100%;
     padding: 0 24px 0 24px;
+    height: 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+}
+
+.Header__container_theme_about {
+    max-width: 1128px;
 }
 
 .Header__info {
