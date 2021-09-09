@@ -16,6 +16,13 @@
     cursor: pointer;
 }
 
+.Search-bar__form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .Search-bar__input {
     padding-left: 16px;
     margin-left: 8px;
