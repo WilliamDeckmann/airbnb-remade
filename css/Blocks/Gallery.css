@@ -1,8 +1,4 @@
 /* --------------------{ Gallery styles }-------------------- */
-.About__gallery {
-    margin-top: 24px;
-}
-
 .Gallery {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -11,6 +7,10 @@
     border-radius: 12px;
     overflow: hidden;
     position: relative;
+}
+
+.About__gallery {
+    margin-top: 24px;
 }
 
 .Gallery__img {
