@@ -1,6 +1,5 @@
 /* --------------------{ Card style }-------------------- */
 .Card {
-    padding-top: 25px;
     display: grid;
     grid-template-columns: 300px 1fr;
     gap: 16px;
