@@ -1,7 +1,7 @@
 /* --------------------{ About styles }-------------------- */
-.Main__about {
+.About {
     max-width: 1128px;
-    margin: auto;
+    margin: 0 25px 0 25px;
 }
 
 .About__header {
