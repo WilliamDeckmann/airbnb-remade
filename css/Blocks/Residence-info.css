@@ -52,25 +52,35 @@
 }
 
 .Residence-info__mention {
-    margin-left: 4px;
     text-decoration: underline;
 }
 
 .Share {
-    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .Share:hover {
     cursor: pointer;
 }
 
-.Save {
+.Share__title {
     text-decoration: underline;
 }
 
+.Save {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
 
 .Save:hover {
     cursor: pointer;
+}
+
+.Save__title {
+    text-decoration: underline;
 }
 
 .Show-more {
