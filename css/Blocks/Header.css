@@ -1,6 +1,7 @@
 /* --------------------{ Header style }-------------------- */
 .Header {
     width: 100%;
+    padding: 0 24px 0 24px;
     display: flex;
     justify-content: center;
     z-index: 100;
@@ -14,14 +15,12 @@
 .Header__container {
     width: 100%;
     height: 80px;
-    padding: 0 24px 0 24px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
 }
 
 .Header__container_theme_about {
-    padding: 0;
     max-width: 1128px;
 }
 
