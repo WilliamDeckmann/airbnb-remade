@@ -47,9 +47,10 @@
     text-align:left;
 }
 
-.Details {
+.Residence-info__details {
     margin-left: 4px;
 }
+
 
 .Residence-info__mention {
     text-decoration: underline;
