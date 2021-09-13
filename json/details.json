@@ -1,4 +1,53 @@
 {
+    "about": {
+        "description": "Hel(t) hytte i Orø",
+        "title": "Summerhouse at island",
+        "tag": "fjordview"
+    },
+
+    "location": {
+        "location": "Orø",
+        "country": "Danmark",
+        "icon": [
+            "fas",
+            "fa-map-marker-alt",
+            "Marker",
+            "icon",
+            "color-logo"
+    ]
+    },
+
+    "facilities": {
+        "items": [
+            {
+                "amount": 4,
+                "title": "gæster"
+            },
+
+            {
+                "amount": 1,
+                "title": "soveværelse"
+            },
+
+            {
+                "amount": 1,
+                "title": "seng"
+            },
+
+            {
+                "amount": 1,
+                "title": "badeværesle"
+            }
+        ],
+        "icon": [
+            "fas",
+            "fa-home",
+            "House",
+            "icon",
+            "color-logo"
+        ]
+    },
+
     "mention": {
         "amount": 178,
         "rating": 4.97,
@@ -6,7 +55,9 @@
         "icon": [
                 "fas",
                 "fa-star",
-                "Star"
+                "Star",
+                "icon",
+                "color-logo"
         ]
     },
 
@@ -16,7 +67,9 @@
         "icon": [
                 "fas",
                 "fa-check-circle",
-                "Check"
+                "Check",
+                "icon",
+                "color-logo"
         ]
     },
     
@@ -30,7 +83,9 @@
         "icon": [
                 "fas",
                 "fa-award",
-                "Award"
+                "Award",
+                "icon",
+                "color-logo"
         ]
     }
 }
