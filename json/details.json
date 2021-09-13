@@ -1,0 +1,36 @@
+{
+    "mention": {
+        "amount": 178,
+        "rating": 4.97,
+        "title": "omtaler",
+        "icon": [
+                "fas",
+                "fa-star",
+                "Star"
+        ]
+    },
+
+    "verified": {
+        "type": true,
+        "title": "Identitet bekræftet",
+        "icon": [
+                "fas",
+                "fa-check-circle",
+                "Check"
+        ]
+    },
+    
+    "superHost": {
+        "type": true,
+        "title": "Superhost",
+        "about": {
+            "title": "Morten er Superhost",
+            "description": "Superhosts er erfarne værter med gode anmeldelser, der dedikerer deres tid til at give deres gæster et godt ophold."
+        },
+        "icon": [
+                "fas",
+                "fa-award",
+                "Award"
+        ]
+    }
+}

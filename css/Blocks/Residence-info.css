@@ -47,6 +47,18 @@
     text-align:left;
 }
 
+.Residence-info__rating {
+    margin-left: 4px;
+}
+
+.Residence-info__mention {
+    text-decoration: underline;
+}
+
+.Residence-info__location {
+    margin-left: 4px;
+}
+
 .Rooms-list {
     padding: 0;
     margin: 0;
@@ -58,11 +70,6 @@
 
 .Residence-info__rooms-list {
     margin-left: 4px;
-}
-
-
-.Residence-info__mention {
-    text-decoration: underline;
 }
 
 .Share {

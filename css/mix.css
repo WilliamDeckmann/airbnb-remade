@@ -1,4 +1,8 @@
 /* --------------------{ Mix style }-------------------- */
+.icon {
+    font-size: 16px;
+}
+
 .medium-shadow {
     box-shadow: 0px 0px 10px var(--shadow-theme);
 }
@@ -15,8 +19,9 @@
     font-weight: 600;
 }
 
-.color-weak {
-    color: var(--weak-theme);
+
+.color-logo {
+    color: var(--logo-theme);
 }
 
 .uppercase {
