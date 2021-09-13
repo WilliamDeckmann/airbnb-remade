@@ -1,0 +1,60 @@
+{
+    "image": "original.jpg",
+
+    "title": {
+        "name": "Morten",
+        "description": "Hils på din vært,"
+    },
+
+    "date": {
+        "year": 2013,
+        "month": "november",
+        "description": "Vært siden"
+    },
+
+    "achievement": {
+        "mention": {
+            "amount": 178,
+            "title": "omtaler",
+            "icon": [
+                    "fas",
+                    "fa-star",
+                    "Star"
+            ]
+        },
+
+        "verified": {
+            "type": true,
+            "title": "Identitet bekræftet",
+            "icon": [
+                    "fas",
+                    "fa-check-circle",
+                    "Check"
+            ]
+        },
+        
+        "superHost": {
+            "type": true,
+            "title": "Superhost",
+            "icon": [
+                    "fas",
+                    "fa-award",
+                    "Award"
+            ],
+            "about": {
+                "title": "Morten er Superhost",
+                "description": "Superhosts er erfarne værter med gode anmeldelser, der dedikerer deres tid til at give deres gæster et godt ophold."
+            }
+        }
+    },
+
+    "introduction": {
+        "title": "",
+        "description": "I am a photographer and I am married to Mette Marie. Our daughter is named Meta Mei and she goes to school. We live in Copenhagen and work with art and photography. And we love"
+    },
+
+    "about": {
+        "title": "Sådan skal du bo",
+        "description": "Normally we have self check-in, but sometimes we will be there to meet and greet you. There is a keygarage at the left side of the front door, you will get the code a few days before arrival."
+    }
+}

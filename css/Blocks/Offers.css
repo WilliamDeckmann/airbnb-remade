@@ -20,8 +20,20 @@
     list-style-type: none;
 }
 
+.Offers__items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Offers__icon {
+    width: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
 .Offers__description {
-    display: inline-block;
+    font-size: 16px;
 }
 
 .Offers__show-all {

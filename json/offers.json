@@ -1,0 +1,173 @@
+{
+    "items": [
+        {
+            "provided": {
+                "type": true,
+                "style": [
+                    "line-through",
+                    "marked"
+                ]
+            },
+            "title": "Vandudsigt",
+            "icon": [
+                "fas",
+                "fa-water",
+                "Water",
+                "Offers__icon"
+            ]
+        },
+
+        {
+            "provided": {
+                "type": true,
+                "style": [
+                    "line-through",
+                    "marked"
+                ]
+            },
+            "title": "Trådløst internet",
+            "icon": [
+                "fas",
+                "fa-wifi",
+                "Signal",
+                "Offers__icon"
+            ]
+        },
+
+        {
+            "provided": {
+                "type": true,
+                "style": [
+                    "line-through",
+                    "marked"
+                ]
+            },
+            "title": "Husdyr tilladt",
+            "icon": [
+                "fas",
+                "fa-paw",
+                "Paw",
+                "Offers__icon"
+            ]
+        },
+
+        {
+            "provided": {
+                "type": true,
+                "style": [
+                    "line-through",
+                    "marked"
+                ]
+            },
+            "title": "Baggård",
+            "icon": [
+                "fas",
+                "fa-seedling",
+                "Plant",
+                "Offers__icon"
+            ]
+        },
+
+        {
+            "provided": {
+                "type": true,
+                "style": [
+                    "line-through",
+                    "marked"
+                ]
+            },
+            "title": "Pack’nPlay/rejseseng",
+            "icon": [
+                "fas",
+                "fa-bed",
+                "Bed",
+                "Offers__icon"
+            ]
+        },
+
+        {
+            "provided": {
+                "type": true,
+                "style": [
+                    "line-through",
+                    "marked"
+                ]
+            },
+            "title": "Køkken",
+            "icon": [
+                "fas",
+                "fa-utensils",
+                "Utensils",
+                "Offers__icon"
+            ]
+        },
+
+        {
+            "provided": {
+                "type": true,
+                "style": [
+                    "line-through",
+                    "marked"
+                ]
+            },
+            "title": "Gratis parkering på stedet",
+            "icon": [
+                "fas",
+                "fa-car",
+                "Car",
+                "Offers__icon"
+            ]
+        },
+
+        {
+            "provided": {
+                "type": true,
+                "style": [
+                    "line-through",
+                    "marked"
+                ]
+            },
+            "title": "Terrasse eller balkon",
+            "icon": [
+                "fas",
+                "fa-border-all",
+                "Window",
+                "Offers__icon"
+            ]
+        },
+
+        {
+            "provided": {
+                "type": true,
+                "style": [
+                    "line-through",
+                    "marked"
+                ]
+            },
+            "title": "Pejs",
+            "icon": [
+                "fas",
+                "fa-fire-alt",
+                "Fire",
+                "Offers__icon"
+            ]
+        },
+
+        {
+            "provided": {
+                "type": false,
+                "style": [
+                    "line-through",
+                    "marked"
+                ]
+            },
+            "title": "Kuliltealarm",
+            "icon": [
+                "fas",
+                "fa-bell-slash",
+                "Bell-inactive",
+                "Offers__icon"
+            ]
+        }
+    ]
+}
