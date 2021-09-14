@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
             Over ${residenceData.filters.about.amount} overnatningssteder
             </p>
             <h2 class="Cards-container__title">
-                <c
+                ${residenceData.filters.about.title}
             </h2>
 
             <!-- Cards-container - filters-container -->
