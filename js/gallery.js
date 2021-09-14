@@ -5,15 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Fetch data
     fetch("./json/residence.json")
-        .then((response) => {
-            /* if(!response.ok) {
-                throw new Error("Ups, noget gik galt!");
-            } */
-            return response.json();
-        })
-        .then((residenceData) => {
+        .then((response) => response.json())
+        .then((galleryData) => {
 
-            residenceData.residences.forEach((residence) => {
+            galleryData.residences.forEach((residence) => {
 
                 // For each Facilities-list item
                 residence.images.forEach((item, index) => {
