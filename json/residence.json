@@ -86,7 +86,7 @@
                     "type": true,
                     "title": "Superhost",
                     "about": {
-                        "title": "Morten er Superhost",
+                        "title": "er Superhost",
                         "description": "Superhosts er erfarne værter med gode anmeldelser, der dedikerer deres tid til at give deres gæster et godt ophold."
                     },
                     "icon": "fas fa-award Award icon color-logo"
@@ -120,12 +120,7 @@
                         ]
                     },
                     "title": "Vandudsigt",
-                    "icon": [
-                        "fas",
-                        "fa-water",
-                        "Water",
-                        "Offers__icon"
-                    ]
+                    "icon": "fas fa-water Water Offers__icon"
                 },
         
                 {
@@ -137,12 +132,7 @@
                         ]
                     },
                     "title": "Trådløst internet",
-                    "icon": [
-                        "fas",
-                        "fa-wifi",
-                        "Signal",
-                        "Offers__icon"
-                    ]
+                    "icon": "fas fa-wifi Signal Offers__icon"
                 },
         
                 {
@@ -154,12 +144,7 @@
                         ]
                     },
                     "title": "Husdyr tilladt",
-                    "icon": [
-                        "fas",
-                        "fa-paw",
-                        "Paw",
-                        "Offers__icon"
-                    ]
+                    "icon": "fas fa-paw Paw Offers__icon"
                 },
         
                 {
@@ -171,12 +156,7 @@
                         ]
                     },
                     "title": "Baggård",
-                    "icon": [
-                        "fas",
-                        "fa-seedling",
-                        "Plant",
-                        "Offers__icon"
-                    ]
+                    "icon": "fas fa-seedling Plant Offers__icon"
                 },
         
                 {
@@ -188,12 +168,7 @@
                         ]
                     },
                     "title": "Pack’nPlay/rejseseng",
-                    "icon": [
-                        "fas",
-                        "fa-bed",
-                        "Bed",
-                        "Offers__icon"
-                    ]
+                    "icon": "fas fa-bed Bed Offers__icon"
                 },
         
                 {
@@ -205,12 +180,7 @@
                         ]
                     },
                     "title": "Køkken",
-                    "icon": [
-                        "fas",
-                        "fa-utensils",
-                        "Utensils",
-                        "Offers__icon"
-                    ]
+                    "icon": "fas fa-utensils Utensils Offers__icon"
                 },
         
                 {
@@ -222,12 +192,7 @@
                         ]
                     },
                     "title": "Gratis parkering på stedet",
-                    "icon": [
-                        "fas",
-                        "fa-car",
-                        "Car",
-                        "Offers__icon"
-                    ]
+                    "icon": "fas fa-car Car Offers__icon"
                 },
         
                 {
@@ -239,12 +204,7 @@
                         ]
                     },
                     "title": "Terrasse eller balkon",
-                    "icon": [
-                        "fas",
-                        "fa-border-all",
-                        "Window",
-                        "Offers__icon"
-                    ]
+                    "icon": "fas fa-border-all Window Offers__icon"
                 },
         
                 {
@@ -256,12 +216,7 @@
                         ]
                     },
                     "title": "Pejs",
-                    "icon": [
-                        "fas",
-                        "fa-fire-alt",
-                        "Fire",
-                        "Offers__icon"
-                    ]
+                    "icon": "fas fa-fire-alt Fire Offers__icon"
                 },
         
                 {
@@ -273,12 +228,7 @@
                         ]
                     },
                     "title": "Kuliltealarm",
-                    "icon": [
-                        "fas",
-                        "fa-bell-slash",
-                        "Bell-inactive",
-                        "Offers__icon"
-                    ]
+                    "icon": "fas fa-bell-slash Bell-inactive Offers__icon"
                 }
             ]
         }

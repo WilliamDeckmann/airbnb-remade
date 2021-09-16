@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     <figure class="Host-introduction__picture">
 
                         <!-- Host-introduction - img & Super-host -->
-                        <img class="Host-introduction__img" src="./img/residence_01/original.jpg" alt="Billede af vært: 01">
-                        <i class="fas fa-award Award Host-introduction__award"></i>
+                        <img class="Host-introduction__img" src="./img/residence_01/${residenceData.residences[0].host.image}" alt="Billede af vært: 01">
+                        <i class="${residenceData.residences[0].details.superHost.icon} Host-introduction__award"></i>
                     </figure>
 
 
@@ -34,10 +34,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
                             <!-- Host-introduction - title & date -->
                             <h2 class="Host-introduction__title">
-                                Hils på din vært, Morten
+                                ${residenceData.residences[0].host.title.description} ${residenceData.residences[0].host.title.name}
                             </h2>
                             <p class="Host-introduction__date">
-                                Vært siden november 2013
+                                ${residenceData.residences[0].host.date.description} ${residenceData.residences[0].host.date.month} ${residenceData.residences[0].host.date.year}
                             </p>
                         </article>
 
@@ -48,9 +48,9 @@ document.addEventListener("DOMContentLoaded", () => {
                             <li class="Host-introduction__achievement-item">
 
                                 <!-- Host-introduction - achievement - icon & title -->
-                                <i class="fas fa-star Star icon color-logo Host-introduction__achievement-icon"></i>
+                                <i class="${residenceData.residences[0].details.mention.icon} Host-introduction__achievement-icon"></i>
                                 <p class="Mention">
-                                    178 omtaler
+                                    ${residenceData.residences[0].details.mention.amount} ${residenceData.residences[0].details.mention.title}
                                 </p>
                             </li>
 
@@ -58,9 +58,9 @@ document.addEventListener("DOMContentLoaded", () => {
                             <li class="Host-introduction__achievement-item">
 
                                 <!-- Host-introduction - achievement - icon & title -->
-                                <i class="fas fa-check-circle Check icon color-logo Host-introduction__achievement-icon"></i>
+                                <i class="${residenceData.residences[0].details.verified.icon} Host-introduction__achievement-icon"></i>
                                 <p class="Verified Host-introduction__achievement-title">
-                                    Identitet bekræftet
+                                    ${residenceData.residences[0].details.verified.title}
                                 </p>
                             </li>
 
@@ -68,9 +68,9 @@ document.addEventListener("DOMContentLoaded", () => {
                             <li class="Host-introduction__achievement-item">
 
                                 <!-- Host-introduction - achievement - icon & title -->
-                                <i class="fas fa-award Award icon color-logo Host-introduction__achievement-icon"></i>
+                                <i class="${residenceData.residences[0].details.superHost.icon} Host-introduction__achievement-icon"></i>
                                 <p class="Super-host Host-introduction__achievement-title">
-                                    Superhost
+                                    ${residenceData.residences[0].details.superHost.title}
                                 </p>
                             </li>
                         </ul>
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     <!-- Host-introduction - paragraph -->
                     <p class="Host-introduction__paragraph">
-                        I am a photographer and I am married to Mette Marie. Our daughter is named Meta Mei and she goes to school. We live in Copenhagen and work with art and photography. And we love
+                        ${residenceData.residences[0].host.introduction.description}
                         <span class="Tripple-dots">...</span>
                     </p>
 
@@ -104,12 +104,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     <!-- Host-introduction - title -->
                     <h3 class="Host-introduction__title">
-                        Morten er Superhost
+                        ${residenceData.residences[0].host.title.name} ${residenceData.residences[0].details.superHost.about.title}
                     </h3>
 
                     <!-- Host-introduction - paragraph -->
                     <p class="Host-introduction__paragraph">
-                        Superhosts er erfarne værter med gode anmeldelser, der dedikerer deres tid til at give deres gæster et godt ophold.
+                        ${residenceData.residences[0].details.superHost.about.description}
                     </p>
                 </article>
 
@@ -118,12 +118,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     <!-- Host-introduction - title -->
                     <h3 class="Host-introduction__title">
-                        Sådan skal du bo
+                        ${residenceData.residences[0].host.about.title}
                     </h3>
 
                     <!-- Host-introduction - paragraph -->
                     <p class="Host-introduction__paragraph">
-                        Normally we have self check-in, but sometimes we will be there to meet and greet you. There is a keygarage at the left side of the front door, you will get the code a few days before arrival.
+                        ${residenceData.residences[0].host.about.description}
                     </p>
                 </article>
             </section>
