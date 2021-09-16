@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Check if item is provided
                 if(!item.provided.type == true) {
-                    console.log("hey")
                     description.classList.add(item.provided.style[0]);
                     description.classList.add(item.provided.style[1]);
                 };
