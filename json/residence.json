@@ -1,7 +1,10 @@
 {
     "residences": [
         {
-            "id": 1,
+            "info": {
+                "id": 1,
+                "href": ""
+            },
 
 
 
@@ -101,6 +104,482 @@
                 "8b08599d-45dc-4cfc-95a1-7bbe5e878164.jpg",
                 "bc80e647-a613-4db6-b40b-51036081e981.jpg",
                 "b1250e6c_original.jpg",
+                "4c095ea8_original.jpg",
+                "815e65e4-b5c7-4a20-aadf-fa606fe3aba8.jpg"
+            ],
+        
+        
+        
+            "offers": [
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Vandudsigt",
+                    "icon": "fas fa-water Water Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Trådløst internet",
+                    "icon": "fas fa-wifi Signal Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Husdyr tilladt",
+                    "icon": "fas fa-paw Paw Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Baggård",
+                    "icon": "fas fa-seedling Plant Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Pack’nPlay/rejseseng",
+                    "icon": "fas fa-bed Bed Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Køkken",
+                    "icon": "fas fa-utensils Utensils Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Gratis parkering på stedet",
+                    "icon": "fas fa-car Car Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Terrasse eller balkon",
+                    "icon": "fas fa-border-all Window Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Pejs",
+                    "icon": "fas fa-fire-alt Fire Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": false,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Kuliltealarm",
+                    "icon": "fas fa-bell-slash Bell-inactive Offers__icon"
+                }
+            ]
+        },
+
+
+
+
+
+        {
+            "info": {
+                "id": 2,
+                "href": ""
+            },
+
+
+
+            "host": {
+        
+                "image": "original.jpg",
+        
+                "title": {
+                    "name": "Morten",
+                    "description": "Hils på din vært,"
+                },
+        
+                "date": {
+                    "year": 2013,
+                    "month": "november",
+                    "description": "Vært siden"
+                },
+        
+                "introduction": {
+                    "description": "I am a photographer and I am married to Mette Marie. Our daughter is named Meta Mei and she goes to school. We live in Copenhagen and work with art and photography. And we love"
+                },
+        
+                "about": {
+                    "title": "Sådan skal du bo",
+                    "description": "Normally we have self check-in, but sometimes we will be there to meet and greet you. There is a keygarage at the left side of the front door, you will get the code a few days before arrival."
+                }
+            },
+        
+        
+        
+            "details": {
+        
+                "about": {
+                    "description": "Hel(t) hytte i Orø",
+                    "title": "Summerhouse at island",
+                    "tag": "fjordview"
+                },
+            
+                "location": {
+                    "location": "Orø",
+                    "country": "Danmark",
+                    "icon": "fas fa-map-marker-alt Marker icon color-logo"
+                },
+            
+                "facilities": {
+                    "items": [
+                        {
+                            "amount": 4,
+                            "title": "gæster"
+                        },
+            
+                        {
+                            "amount": 1,
+                            "title": "soveværelse"
+                        },
+            
+                        {
+                            "amount": 1,
+                            "title": "seng"
+                        },
+            
+                        {
+                            "amount": 1,
+                            "title": "badeværelse"
+                        }
+                    ],
+                    "icon": "fas fa-home House icon color-logo"
+                },
+            
+                "mention": {
+                    "amount": 178,
+                    "rating": 4.97,
+                    "title": "omtaler",
+                    "icon": "fas fa-star Star icon color-logo"
+                },
+            
+                "verified": {
+                    "type": true,
+                    "title": "Identitet bekræftet",
+                    "icon": "fas fa-check-circle Check icon color-logo"
+                },
+                
+                "superHost": {
+                    "type": true,
+                    "title": "Superhost",
+                    "about": {
+                        "title": "er Superhost",
+                        "description": "Superhosts er erfarne værter med gode anmeldelser, der dedikerer deres tid til at give deres gæster et godt ophold."
+                    },
+                    "icon": "fas fa-award Award icon color-logo"
+                }
+            },
+        
+        
+        
+            "images": [
+                "bc80e647-a613-4db6-b40b-51036081e981.jpg",
+                "8b08599d-45dc-4cfc-95a1-7bbe5e878164.jpg",
+                "b1250e6c_original.jpg",
+                "4c095ea8_original.jpg",
+                "815e65e4-b5c7-4a20-aadf-fa606fe3aba8.jpg"
+            ],
+        
+        
+        
+            "offers": [
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Vandudsigt",
+                    "icon": "fas fa-water Water Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Trådløst internet",
+                    "icon": "fas fa-wifi Signal Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Husdyr tilladt",
+                    "icon": "fas fa-paw Paw Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Baggård",
+                    "icon": "fas fa-seedling Plant Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Pack’nPlay/rejseseng",
+                    "icon": "fas fa-bed Bed Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Køkken",
+                    "icon": "fas fa-utensils Utensils Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Gratis parkering på stedet",
+                    "icon": "fas fa-car Car Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Terrasse eller balkon",
+                    "icon": "fas fa-border-all Window Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": true,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Pejs",
+                    "icon": "fas fa-fire-alt Fire Offers__icon"
+                },
+        
+                {
+                    "provided": {
+                        "type": false,
+                        "style": [
+                            "line-through",
+                            "marked"
+                        ]
+                    },
+                    "title": "Kuliltealarm",
+                    "icon": "fas fa-bell-slash Bell-inactive Offers__icon"
+                }
+            ]
+        },
+
+
+
+
+
+        {
+            "info": {
+                "id": 3,
+                "href": ""
+            },
+
+
+
+            "host": {
+        
+                "image": "original.jpg",
+        
+                "title": {
+                    "name": "Morten",
+                    "description": "Hils på din vært,"
+                },
+        
+                "date": {
+                    "year": 2013,
+                    "month": "november",
+                    "description": "Vært siden"
+                },
+        
+                "introduction": {
+                    "description": "I am a photographer and I am married to Mette Marie. Our daughter is named Meta Mei and she goes to school. We live in Copenhagen and work with art and photography. And we love"
+                },
+        
+                "about": {
+                    "title": "Sådan skal du bo",
+                    "description": "Normally we have self check-in, but sometimes we will be there to meet and greet you. There is a keygarage at the left side of the front door, you will get the code a few days before arrival."
+                }
+            },
+        
+        
+        
+            "details": {
+        
+                "about": {
+                    "description": "Hel(t) hytte i Orø",
+                    "title": "Summerhouse at island",
+                    "tag": "fjordview"
+                },
+            
+                "location": {
+                    "location": "Orø",
+                    "country": "Danmark",
+                    "icon": "fas fa-map-marker-alt Marker icon color-logo"
+                },
+            
+                "facilities": {
+                    "items": [
+                        {
+                            "amount": 4,
+                            "title": "gæster"
+                        },
+            
+                        {
+                            "amount": 1,
+                            "title": "soveværelse"
+                        },
+            
+                        {
+                            "amount": 1,
+                            "title": "seng"
+                        },
+            
+                        {
+                            "amount": 1,
+                            "title": "badeværelse"
+                        }
+                    ],
+                    "icon": "fas fa-home House icon color-logo"
+                },
+            
+                "mention": {
+                    "amount": 178,
+                    "rating": 4.97,
+                    "title": "omtaler",
+                    "icon": "fas fa-star Star icon color-logo"
+                },
+            
+                "verified": {
+                    "type": true,
+                    "title": "Identitet bekræftet",
+                    "icon": "fas fa-check-circle Check icon color-logo"
+                },
+                
+                "superHost": {
+                    "type": true,
+                    "title": "Superhost",
+                    "about": {
+                        "title": "er Superhost",
+                        "description": "Superhosts er erfarne værter med gode anmeldelser, der dedikerer deres tid til at give deres gæster et godt ophold."
+                    },
+                    "icon": "fas fa-award Award icon color-logo"
+                }
+            },
+        
+        
+        
+            "images": [
+                "b1250e6c_original.jpg",
+                "8b08599d-45dc-4cfc-95a1-7bbe5e878164.jpg",
+                "bc80e647-a613-4db6-b40b-51036081e981.jpg",
                 "4c095ea8_original.jpg",
                 "815e65e4-b5c7-4a20-aadf-fa606fe3aba8.jpg"
             ],

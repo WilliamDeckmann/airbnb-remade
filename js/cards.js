@@ -5,12 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Fetch data
     fetch("./json/residence.json")
-        .then((response) => {
-            /* if(!response.ok) {
-                throw new Error("Ups, noget gik galt!");
-            } */
-            return response.json();
-        })
+        .then((response) => response.json())
         .then((residenceData) => {
 
             residenceData.residences.forEach((residence) => {
@@ -18,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Create element, add content & append it
                 let cardLink = document.createElement("a");
                 container.appendChild(cardLink);
-                cardLink.href = "./about.html";
+                cardLink.href = `./about.html?id=${residence.info.id}`;
                 cardLink.classList.add("Card-link");
                 cardLink.innerHTML =
                 `<!-- Card -->
@@ -59,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <hr class="Residence-line line">
     
                                 <!-- Facilities-list -->
-                                <ul class="Facilities-list color-weak">
+                                <ul class="Facilities-list color-weak" id="Facilities-lis_id_${residence.info.id}">
 
                                     <!-- facilities-items goes here -->
     
@@ -92,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 
                 // Element variable
-                let facilitiesList = document.querySelector(".Facilities-list");
+                let facilitiesList = document.querySelector(`#Facilities-lis_id_${residence.info.id}`);
 
                 // For each Facilities-list item
                 residence.details.facilities.items.forEach((item) => {
