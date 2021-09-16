@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <i class="${residence.details.facilities.icon}"></i>
         
                                     <!-- Facilities-list -->
-                                    <ul class="Facilities-list Residence-info__facilities-list" id="Facilities-lis_id_${residence.info.id}">
+                                    <ul class="Facilities-list Residence-info__facilities-list" id="Facilities-list_id_${residence.info.id}">
                     
                                         <!-- facilities-items goes here -->
                                         
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
                     // Element variable
-                    let facilitiesList = document.querySelector(`#Facilities-lis_id_${residence.info.id}`);
+                    let facilitiesList = document.querySelector(`#Facilities-list_id_${residence.info.id}`);
         
                     // For each Facilities-list item
                     residence.details.facilities.items.forEach((item) => {

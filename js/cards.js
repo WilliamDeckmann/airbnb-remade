@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <hr class="Residence-line line">
     
                                 <!-- Facilities-list -->
-                                <ul class="Facilities-list color-weak" id="Facilities-lis_id_${residence.info.id}">
+                                <ul class="Facilities-list color-weak" id="Facilities-list_id_${residence.info.id}">
 
                                     <!-- facilities-items goes here -->
     
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 
                 // Element variable
-                let facilitiesList = document.querySelector(`#Facilities-lis_id_${residence.info.id}`);
+                let facilitiesList = document.querySelector(`#Facilities-list_id_${residence.info.id}`);
 
                 // For each Facilities-list item
                 residence.details.facilities.items.forEach((item) => {

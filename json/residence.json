@@ -326,7 +326,7 @@
                 },
                 
                 "superHost": {
-                    "type": true,
+                    "type": false,
                     "title": "Superhost",
                     "about": {
                         "title": "er Superhost",
@@ -473,7 +473,7 @@
         },
 
 
-
+        
 
 
         {
@@ -558,13 +558,13 @@
                 },
             
                 "verified": {
-                    "type": true,
+                    "type": false,
                     "title": "Identitet bekræftet",
                     "icon": "fas fa-check-circle Check icon color-logo"
                 },
                 
                 "superHost": {
-                    "type": true,
+                    "type": false,
                     "title": "Superhost",
                     "about": {
                         "title": "er Superhost",

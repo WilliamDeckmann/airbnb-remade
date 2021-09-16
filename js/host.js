@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     </li>
         
                                     <!-- Host-introduction - achievement-items -->
-                                    <li class="Host-introduction__achievement-item">
+                                    <li class="Host-introduction__achievement-item" id="Verified">
         
                                         <!-- Host-introduction - achievement - icon & title -->
                                         <i class="${residence.details.verified.icon} Host-introduction__achievement-icon"></i>
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     </li>
         
                                     <!-- Host-introduction - achievement-items -->
-                                    <li class="Host-introduction__achievement-item">
+                                    <li class="Host-introduction__achievement-item" id="SuperHost">
         
                                         <!-- Host-introduction - achievement - icon & title -->
                                         <i class="${residence.details.superHost.icon} Host-introduction__achievement-icon"></i>
@@ -148,31 +148,17 @@ document.addEventListener("DOMContentLoaded", () => {
                         <!-- WILL ADD MORE CONTENT IS POSSIBLE -->
         
                     </section>`;
+
+
+
+                    if(!residence.details.verified.type == true) {
+                        document.querySelector("#Verified").style.display = "none";
+                    };
+
+                    if(!residence.details.superHost.type == true) {
+                        document.querySelector("#SuperHost").style.display = "none";
+                    };
                 };
             });
-
-
-
-
-            /* ----------{ Did nit have time to finish this yet }---------- */
-
-            /*
-            // Element variable
-            let achivementList = document.querySelector(".Host-introduction__achievement-list");
-
-            // For each Facilities-list item
-            residenceData.residences[0].details.achivements.forEach((item) => {
-
-                // Create, append & add content
-                let achivement = document.createElement("li")
-                achivementList.appendChild(achivement);
-                achivement.classList.add("Facilities-item");
-                achivement.innerHTML =
-                `<!-- Host-introduction - achievement - icon & title -->
-                <i class="${residenceData.residences[0].details.superHost.icon} Host-introduction__achievement-icon"></i>
-                <p class="Super-host Host-introduction__achievement-title">
-                    ${residenceData.residences[0].details.superHost.title}
-                </p>`
-            }); */
         })
 });
