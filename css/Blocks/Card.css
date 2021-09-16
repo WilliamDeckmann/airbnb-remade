@@ -6,12 +6,14 @@
 }
 
 .Card__img-container {
-    height: 200px;
     position: relative;
 }
 
 .Card__img {
+    width: 300px;
+    height: 200px;
     border-radius: 14px;
+    object-fit: cover;
 }
 
 .Card__tag {
