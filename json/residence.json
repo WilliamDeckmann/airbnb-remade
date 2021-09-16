@@ -1,6 +1,10 @@
 {
     "residences": [
         {
+            "id": 1,
+
+
+
             "host": {
         
                 "image": "original.jpg",
@@ -25,8 +29,6 @@
                     "description": "Normally we have self check-in, but sometimes we will be there to meet and greet you. There is a keygarage at the left side of the front door, you will get the code a few days before arrival."
                 }
             },
-        
-        
         
         
         
@@ -95,8 +97,6 @@
         
         
         
-        
-        
             "images": [
                 "8b08599d-45dc-4cfc-95a1-7bbe5e878164.jpg",
                 "bc80e647-a613-4db6-b40b-51036081e981.jpg",
@@ -104,8 +104,6 @@
                 "4c095ea8_original.jpg",
                 "815e65e4-b5c7-4a20-aadf-fa606fe3aba8.jpg"
             ],
-        
-        
         
         
         

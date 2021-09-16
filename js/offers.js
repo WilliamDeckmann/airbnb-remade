@@ -16,19 +16,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 offersList.appendChild(offer);
                 offer.classList.add("Offers__items");
                 offer.innerHTML = 
-                `<i class="${item.icon}"></i>
-                <p class="Offers__description">
-                    ${item.title}
-                </p>`;
-
-                // Offer - description variable
-                let offerDescription = document.querySelector(".Offers__description");
+                `<i class="${item.icon}"></i>`;
+                let description = document.createElement("P")
+                offer.appendChild(description);
+                description.textContent = item.title;
 
                 // Check if item is provided
                 if(!item.provided.type == true) {
                     console.log("hey")
-                    offerDescription.classList.add(item.provided.style[0]);
-                    offerDescription.classList.add(item.provided.style[1]);
+                    description.classList.add(item.provided.style[0]);
+                    description.classList.add(item.provided.style[1]);
                 };
             });
         })

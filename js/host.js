@@ -137,5 +137,28 @@ document.addEventListener("DOMContentLoaded", () => {
                 <!-- WILL ADD MORE CONTENT IS POSSIBLE -->
 
             </section>`;
+
+
+
+            /* ----------{ Did nit have time to finish this yet }---------- */
+
+            /*
+            // Element variable
+            let achivementList = document.querySelector(".Host-introduction__achievement-list");
+
+            // For each Facilities-list item
+            residenceData.residences[0].details.achivements.forEach((item) => {
+
+                // Create, append & add content
+                let achivement = document.createElement("li")
+                achivementList.appendChild(achivement);
+                achivement.classList.add("Facilities-item");
+                achivement.innerHTML =
+                `<!-- Host-introduction - achievement - icon & title -->
+                <i class="${residenceData.residences[0].details.superHost.icon} Host-introduction__achievement-icon"></i>
+                <p class="Super-host Host-introduction__achievement-title">
+                    ${residenceData.residences[0].details.superHost.title}
+                </p>`
+            }); */
         })
 });
