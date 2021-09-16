@@ -28,9 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
                         <li class="Residence-info__detail-item">
             
                             <!-- Star & Rating -->
-                            <i class="fas fa-star Star icon color-logo"></i>
+                            <i class="${residenceData.residences[0].details.mention.icon}"></i>
                             <p class="Rating font-bold Residence-info__rating">
-                                4,97
+                                ${residenceData.residences[0].details.mention.rating}
                             </p>
                         </li>
                         <li class="Residence-info__detail-dot">
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
             
                             <!-- Mention -->
                             <p class="Mention Residence-info__mention">
-                                178 omtaler
+                                ${residenceData.residences[0].details.mention.amount} ${residenceData.residences[0].details.mention.title}
                             </p>
                         </li>
                         <li class="Residence-info__detail-dot">
@@ -49,10 +49,10 @@ document.addEventListener("DOMContentLoaded", () => {
                         <li class="Residence-info__detail-item">
             
                             <!-- Location -->
-                            <i class="fas fa-map-marker-alt Marker icon color-logo"></i>
+                            <i class="${residenceData.residences[0].details.location.icon}"></i>
                             <p class="Location Residence-info__location">
-                                Orø, 
-                                Danmark
+                                ${residenceData.residences[0].details.location.location}, 
+                                ${residenceData.residences[0].details.location.country}
                             </p>
                         </li>
                         <li class="Residence-info__detail-dot">
@@ -61,37 +61,13 @@ document.addEventListener("DOMContentLoaded", () => {
                         <li class="Residence-info__detail-item">
             
                             <!-- Residence-info - rooms-list -->
-                            <i class="fas fa-home House icon color-logo"></i>
+                            <i class="${residenceData.residences[0].details.facilities.icon}"></i>
+
+                            <!-- Facilities-list -->
                             <ul class="Facilities-list Residence-info__facilities-list">
             
-                                <!-- rooms-item -->
-                                <li class="Facilities-item">
-                                    4 gæster
-                                </li>
-            
-                                <li class="Facilities-dot">
-                                    ·
-                                </li>
-            
-                                <li class="Facilities-item">
-                                    1 soveværelse
-                                </li>
-            
-                                <li class="Facilities-dot">
-                                    ·
-                                </li>
-            
-                                <li class="Facilities-item">
-                                    1 seng
-                                </li>
-            
-                                <li class="Facilities-dot">
-                                    ·
-                                </li>
-            
-                                <li class="Facilities-item">
-                                    1 badeværelse
-                                </li>
+                                <!-- facilities-items goes here -->
+                                
                             </ul>
                         </li>
                     </ul>
@@ -120,6 +96,21 @@ document.addEventListener("DOMContentLoaded", () => {
                         </button>
                     </section>
                 </section>
-            </article>`
+            </article>`;
+
+
+            
+            // Element variable
+            let facilitiesList = document.querySelector(".Facilities-list");
+
+            // For each Facilities-list item
+            residenceData.residences[0].details.facilities.items.forEach((item) => {
+
+                // Create, append & add content
+                let facility = document.createElement("li")
+                facilitiesList.appendChild(facility);
+                facility.classList.add("Facilities-item");
+                facility.innerHTML = `${item.amount} ${item.title}`
+            });
         })
 });

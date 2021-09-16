@@ -58,8 +58,10 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <!--  Residence-line -->
                                 <hr class="Residence-line line">
     
-                                <!-- Rooms-list -->
+                                <!-- Facilities-list -->
                                 <ul class="Facilities-list color-weak">
+
+                                    <!-- facilities-items goes here -->
     
                                 </ul>
                             </section>
