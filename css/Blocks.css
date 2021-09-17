@@ -49,5 +49,8 @@
 /* Offers */
 @import url("./Blocks/Offers.css");
 
+/* Offers-popup */
+@import url("./Blocks/Offers-popup.css");
+
 /* Host-introduction */
 @import url("./Blocks/Host-introduction.css");

@@ -38,7 +38,7 @@
     <div class="Popup" id="Popup_id">
 
         <!-- Offers-popup -->
-        <article class="Offers-popup">
+        <section class="Offers-popup">
 
             <!-- Offers-popup - header -->
             <header class="Offers-popup__header">
@@ -49,27 +49,22 @@
                 </button>
             </header>
 
-            <!-- Offers-popup - title -->
-            <h2 class="Offers__title">
-                Det tilbyder denne bolig
-            </h2>
+            <article class="Offers-popup__content">
 
-            <!-- Offers-popup - sections -->
-            <section class="Offers-popup__section">
+                <!-- Offers-popup - title -->
+                <h2 class="Offers__title">
+                    Det tilbyder denne bolig
+                </h2>
 
-                <!--  -->
-                <h3 class="Offers-popup__section-title">
-                    Badeværelse
-                </h3>
 
-                <!--  -->
-                <ul class="Offers__list Offers-popup__list" id="Offers-popup__list_id">
+                <!-- Offers-popup - section-container -->
+                <ul class="Offers-popup__section-container" id="Offers-popup__section-container_id">
 
-                    <!--  -->
+                    <!-- Offers-popup - sections goes here -->
 
                 </ul>
-            </section>
-        </article>
+            </article>
+        </section>
     </div>
 
 
@@ -225,6 +220,7 @@
     <script src="./js/residence-info.js"></script>
     <script src="./js/gallery.js"></script>
     <script src="./js/offers.js"></script>
+    <script src="./js/offersPopup.js"></script>
     <script src="./js/host.js"></script>
 </body>
 </html>
