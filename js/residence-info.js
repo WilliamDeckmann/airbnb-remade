@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Element variable
     const header = document.querySelector(".About__header");
 
+
+
     // Fetch data
     fetch("./json/residence.json")
         .then((response) => response.json())
@@ -16,6 +18,15 @@ document.addEventListener("DOMContentLoaded", () => {
             // For each residence
             residenceData.residences.forEach((residence) => {
 
+                // Rating variables
+                let ratingStars = residence.info.rating.stars;
+                let ratingPeople = residence.info.rating.people;
+                let ratingTotal = ratingStars / ratingPeople;
+                let ratingFinal = parseFloat(ratingTotal).toFixed(2);
+                ratingFinal = ratingFinal.replace(".", ",")
+
+
+                
                 // Search for id
                 if(id == residence.info.id) {
 
@@ -41,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <!-- Star & Rating -->
                                     <i class="${residence.details.mention.icon}"></i>
                                     <p class="Rating font-bold Residence-info__rating">
-                                        ${residence.details.mention.rating}
+                                        ${ratingFinal}
                                     </p>
                                 </li>
                                 <li class="Residence-info__detail-dot">

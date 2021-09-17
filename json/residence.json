@@ -3,7 +3,10 @@
         {
             "info": {
                 "id": 1,
-                "href": ""
+                "rating": {
+                    "stars": 183,
+                    "people": 41
+                }
             },
 
 
@@ -76,7 +79,6 @@
             
                 "mention": {
                     "amount": 178,
-                    "rating": 4.97,
                     "title": "omtaler",
                     "icon": "fas fa-star Star icon color-logo"
                 },
@@ -241,7 +243,10 @@
         {
             "info": {
                 "id": 2,
-                "href": ""
+                "rating": {
+                    "stars": 224,
+                    "people": 57
+                }
             },
 
 
@@ -314,7 +319,6 @@
             
                 "mention": {
                     "amount": 178,
-                    "rating": 4.97,
                     "title": "omtaler",
                     "icon": "fas fa-star Star icon color-logo"
                 },
@@ -479,7 +483,10 @@
         {
             "info": {
                 "id": 3,
-                "href": ""
+                "rating": {
+                    "stars": 161,
+                    "people": 52
+                }
             },
 
 
@@ -552,7 +559,6 @@
             
                 "mention": {
                     "amount": 178,
-                    "rating": 4.97,
                     "title": "omtaler",
                     "icon": "fas fa-star Star icon color-logo"
                 },

@@ -3,12 +3,23 @@ document.addEventListener("DOMContentLoaded", () => {
     // Element variable
     const container = document.querySelector(".Cards-container__container");
 
+
+
     // Fetch data
     fetch("./json/residence.json")
         .then((response) => response.json())
         .then((residenceData) => {
 
             residenceData.residences.forEach((residence) => {
+
+                // Rating variables
+                let ratingStars = residence.info.rating.stars;
+                let ratingPeople = residence.info.rating.people;
+                let ratingTotal = ratingStars / ratingPeople;
+                let ratingFinal = parseFloat(ratingTotal).toFixed(2);
+                ratingFinal = ratingFinal.replace(".", ",")
+
+
 
                 // Create element, add content & append it
                 let cardLink = document.createElement("a");
@@ -73,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <!-- Star & Rating -->
                             <p class="Rating font-bold">
                                 <i class="${residence.details.mention.icon}"></i>
-                                    ${residence.details.mention.rating}
+                                    ${ratingFinal}
                             </p>
     
                             <!-- Mention -->

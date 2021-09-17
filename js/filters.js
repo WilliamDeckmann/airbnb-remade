@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const header = document.querySelector(".Cards-container__header");
     const filtersContainer = document.querySelector(".Cards-container__filters-container");
 
+
+    
     // Fetch data
     fetch("./json/filters.json")
         .then((response) => {

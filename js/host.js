@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Element variable
     const host = document.querySelector(".Host-introduction");
 
+
+    
     // Fetch data
     fetch("./json/residence.json")
         .then((response) => response.json())

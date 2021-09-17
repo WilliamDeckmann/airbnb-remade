@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Element variable
     const offersList = document.querySelector(".Offers__list");
 
+
+    
     // Fetch data
     fetch("./json/residence.json")
         .then((response) => response.json())

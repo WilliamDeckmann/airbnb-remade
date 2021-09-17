@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Element variable
     const gallery = document.querySelector(".Gallery");
 
+
+    
     // Fetch data
     fetch("./json/residence.json")
         .then((response) => response.json())
