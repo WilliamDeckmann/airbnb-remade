@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let id = params.get("id");
     
     // Element variable
-    const host = document.querySelector(".Host-introduction");
+    const host = document.querySelector("#Host-introduction_id");
 
 
     

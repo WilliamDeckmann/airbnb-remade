@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let id = params.get("id");
     
     // Element variable
-    const offersList = document.querySelector(".Offers__list");
+    const offersList = document.querySelector("#Offers__list_id");
 
 
     
@@ -44,5 +44,34 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
             });
 
+
+
+            // Initiator
+            document.querySelector("#Offers__show-all_id").addEventListener("click", function() {
+
+                // Display popup
+                DisplayPopup();
+            });
+
+            // Function: Popup
+            function DisplayPopup() {
+
+                // Variables
+                let popup = document.querySelector("#Popup_id");
+                let closeButton = document.querySelector("#Offers-popup__close-button_id");
+                let overlay = document.querySelector("#Overlay_id");
+
+                // Display: popup
+                popup.classList.add("PopupActive");
+                overlay.classList.add("PopupActive");
+
+                // Popup: close
+                closeButton.addEventListener("click", function() {
+
+                    // Remove: popup
+                    popup.classList.remove("PopupActive");
+                    overlay.classList.remove("PopupActive");
+                });
+            };
         })
 });

@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     
     // Element variable
-    const header = document.querySelector(".Cards-container__header");
-    const filtersContainer = document.querySelector(".Cards-container__filters-container");
+    const header = document.querySelector("#Cards-container__header_id");
+    const filtersContainer = document.querySelector("#Cards-container__filters-container_id");
 
 
     

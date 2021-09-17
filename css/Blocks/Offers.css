@@ -49,3 +49,22 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
+
+
+/* --------------------{ Offers-popup style }-------------------- */
+.Offers-popup__header {
+    height: 72px;
+    padding: 24px;
+}
+
+.Offers-popup__close-button {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border-style: none;
+    cursor: pointer;
+}

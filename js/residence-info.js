@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let id = params.get("id");
     
     // Element variable
-    const header = document.querySelector(".About__header");
+    const header = document.querySelector("#About__header_id");
 
 
 

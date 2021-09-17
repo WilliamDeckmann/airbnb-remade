@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let id = params.get("id");
 
     // Element variable
-    const gallery = document.querySelector(".Gallery");
+    const gallery = document.querySelector("#Gallery_id");
 
 
     
