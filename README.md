@@ -2,7 +2,7 @@
 
 lavet af: William Deckmann
 
-Formål: At kopiere noget Airbnb hjemmesidens layout
+Formål: Genskabe layout-eksempel på Airbnb´s forside og detalje-side
 
 
 ## Link til GitHub pages
